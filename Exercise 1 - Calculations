@@ -1,0 +1,11 @@
+Convert the C program given below which converts a length given in cm to inches to a C++ program.
+
+#include <stdio.h>
+void main(void) 
+{
+ float cm, inches;
+ printf("Enter a length in cm : ");
+ scanf("%f",&cm);
+ inches = cm / 2.54;
+ printf("Length in inches is %f \n", inches);
+} 
