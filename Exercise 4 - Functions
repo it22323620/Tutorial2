@@ -1,4 +1,5 @@
 Write a program to calculate the function called nCr which is defined as
+
 nCr = n!/ r!(n−r)!
 Where n! is the factorial of n.
 
