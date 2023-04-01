@@ -30,4 +30,7 @@ void main(void)
  default :
  otRate = 1700;
  break;
+ }
+ netSalary = salary + otHrs* otRate;
+ printf("Net Salary is %f ", netSalary);
 }
